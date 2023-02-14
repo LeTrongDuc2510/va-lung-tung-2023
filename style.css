@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url(pic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  backdrop-filter: blur(5px);
+}
+
+#loveQuestion {
+  display: block;
+  margin-top: 140px;
+  margin-bottom: 130px;
+  margin-right: 280px;
+  margin-left: 280px;
+  padding-left: 110px;
+  font-size: 50px;
+  color: aliceblue;
+  border-color: aliceblue;
+  filter: contrast(90%);
+  border-style: solid;
+  border-radius: 4px;
+}
+
+input {
+  width: 200px;
+  font-size: 30px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.btnYes {
+  background-color: skyblue;
+  margin-left: 460px;
+  margin-right: 40px;
+  width: 180px;
+  height: 70px;
+  font-size: 40px;
+  color: black;
+  border-style: solid;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  border-color: black;
+}
+.btnYes:hover {
+  color: black;
+  background-color: #7bd806;
+}
+
+.btnNo {
+  background-color: #f4511e;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 200px;
+  height: 70px;
+  font-size: 40px;
+  color: aliceblue;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.25s;
+  position: absolute;
+}
